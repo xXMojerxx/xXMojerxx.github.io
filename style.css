@@ -3,6 +3,13 @@
     color: #FAF9F6;
 }
 
+html {
+  width: auto;
+  height:auto;
+  border:15px outset #3b3b3b;
+  outline: 0.5rem solid 
+}
+
 body {
-  background: #00260a;
+  background: #011a07;
 }
