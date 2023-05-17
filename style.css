@@ -18,7 +18,8 @@ body {
 
 h1 {
   color: #FAF9F6;
-  margin-left: 25px;
+  margin-left: 10%;
+  maring-right: 10%;
   font-size: 40px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
