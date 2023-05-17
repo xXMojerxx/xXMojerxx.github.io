@@ -1,10 +1,13 @@
-body {
-  background: #011a07;
+html {
   width: auto;
   height:auto;
   border:4px solid #b3ffc5;
   border-radius: 5px;
   outline: 0.5rem solid;
+}
+
+body {
+  background: #011a07;
 }
 
 p {
