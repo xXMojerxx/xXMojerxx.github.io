@@ -25,7 +25,7 @@ h1 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-p {
+.mainText {
   color: #FAF9F6;
   margin-left: 25%;
   margin-right: 25%;
