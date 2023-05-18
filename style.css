@@ -19,8 +19,9 @@ body {
 h1 {
   color: #FAF9F6;
   margin-left: 25%;
-  maring-right: 25%;
-  font-size: 40px;
+  margin-right: 25%;
+  margin-top: 8%;
+  font-size: 30px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -28,6 +29,6 @@ p {
   color: #FAF9F6;
   margin-left: 25%;
   margin-right: 25%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
