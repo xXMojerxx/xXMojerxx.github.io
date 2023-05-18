@@ -25,10 +25,13 @@ h1 {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.mainText {
-  color: #FAF9F6;
+p {
   margin-left: 25%;
   margin-right: 25%;
+}
+
+.mainText {
+  color: #FAF9F6;
   font-size: 15px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
@@ -37,6 +40,4 @@ h1 {
   color: #8f8f8f;
   background: #424242;
   font-size: 18px;
-  margin-left: 25%;
-  margin-right: 25%;
 }
