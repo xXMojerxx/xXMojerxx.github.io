@@ -11,7 +11,8 @@
   <br>
   <div class= "mainText">
     <p> Hello there! My name is Jude, I am an active coding-language learner, I love making art with text, and I love playing volleyball! Here are some other things that inspire/intrigue me: </p>
-  </div>    
+  </div>
+  <button class="button"> FUNNY BUTTON </button>
 </body>
 
 </html>
