@@ -44,7 +44,7 @@ p {
   font-size: 18px;
 }
 
-.hobbiesButton {
+.buttonLeft {
   display: inline-block;
   padding: 21px 25px;
   font-size: 24px;
@@ -57,6 +57,24 @@ p {
   border: none;
   border-radius: 15px;
   margin-left: 25%;
+  box-shadow: 0 9px #262626;
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.buttonRight {
+  display: inline-block;
+  padding: 21px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #474747;
+  border: none;
+  border-radius: 15px;
+  margin-right: 25%;
   box-shadow: 0 9px #262626;
   width: 20%;
   margin-bottom: 20px;
