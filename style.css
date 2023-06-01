@@ -36,6 +36,21 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
+.hidden {
+  display: none;
+}
+
+.hiddenTextLeft {
+  width: 22%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  text-align: left;
+  text-decornation: none;
+  color: #ffffff;
+  background-color: #474747;
+}
+
 .textArtMarkdown {
   color: #8f8f8f;
   background: #424242;
