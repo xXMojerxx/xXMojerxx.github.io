@@ -7,13 +7,24 @@
   <link href="style.css" rel="stylesheet">
 </head>
 <body>
+  
+  <script>
+  function toggleText() {
+     var text = document.getElementById("demo");
+     if (text.style.display === "none") {
+       text.style.display = "block";
+     } else {
+       text.style.display = "none";
+     }
+  }
+  </script>
   <h1> // FUNNY WEBSITE :) </h1>
   <br>
   <div class= "mainText">
     <p> Hello there! My name is Jude, I am an active coding-language learner, I love making art with text, and I love playing volleyball! Here are some other things that inspire/intrigue me: </p>
   </div>
   <form>
-    <button class="buttonLeft"> FUNNY BUTTON </button>
+    <button class="buttonLeft" onclick="toggleText()"> FUNNY BUTTON </button>
     <button class="buttonRight"> FUNNY BUTTON #2 </button>
   </form>
   </form>
