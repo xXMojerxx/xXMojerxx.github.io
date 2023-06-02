@@ -50,6 +50,7 @@ p {
   color: #ffffff;
   background-color: #474747;
   float: left;
+  float: value 1;
 }
 
 .hiddenTextRight {
@@ -62,6 +63,7 @@ p {
   color: #ffffff;
   background-color: #474747;
   float: right;
+  float: value 1;
 }
 
 .textArtMarkdown {
