@@ -41,7 +41,7 @@ p {
 }
 
 .hiddenTextLeft {
-  width: 22%;
+  width: 24%;
   margin-left: 5px;
   margin-right: 5px;
   font-size: 18px;
@@ -49,6 +49,19 @@ p {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
+  float: left;
+}
+
+.hiddenTextLeft {
+  width: 24%;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  text-align: right;
+  text-decornation: none;
+  color: #ffffff;
+  background-color: #474747;
+  float: right;
 }
 
 .textArtMarkdown {
