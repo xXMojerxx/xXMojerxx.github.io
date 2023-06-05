@@ -56,7 +56,6 @@ p {
 }
 
 .hiddenTextRight {
-  position: right;
   width: 23%;
   margin-right: 5px;
   font-size: 18px;
@@ -64,6 +63,7 @@ p {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
+  position: right;
 }
 
 .textArtMarkdown {
