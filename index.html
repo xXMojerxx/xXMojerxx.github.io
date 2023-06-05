@@ -8,8 +8,18 @@
 </head>
 <body>
   <script>
-  function toggleText(side) {
-     var text = document.getElementById("hidden" + side);
+  // Excuse repeated code, forogot how to make it simpler
+  function toggleTextLeft() {
+     var text = document.getElementById("hiddenLeft");
+     if (text.style.display === "none") {
+       text.style.display = "block";
+     } else {
+       text.style.display = "none";
+     }
+  }
+    
+  function toggleTextRight() {
+     var text = document.getElementById("hiddenRight");
      if (text.style.display === "none") {
        text.style.display = "block";
      } else {
@@ -28,8 +38,8 @@
   <div class= "hiddenTextRight">
     <p id='hiddenRight' class='hiddenRight'> AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT </p> 
   </div>
-    <button class="buttonLeft" onclick="toggleTextLeft(Left)"> FUNNY BUTTON </button>
-    <button class="buttonRight" onclick="toggleTextRight(Right)"> FUNNY BUTTON #2 </button>
+    <button class="buttonLeft" onclick="toggleTextLeft()"> FUNNY BUTTON </button>
+    <button class="buttonRight" onclick="toggleTextRight()"> FUNNY BUTTON #2 </button>
 </body>
 
 </html>
