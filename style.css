@@ -51,6 +51,7 @@ p {
   background-color: #474747;
   float: left;
   float-value: 1;
+  position: absolute;
 }
 
 .hiddenTextRight {
@@ -63,6 +64,7 @@ p {
   color: #ffffff;
   background-color: #474747;
   float: right;
+  position: absolute;
 }
 
 .textArtMarkdown {
@@ -89,7 +91,6 @@ p {
   box-shadow: 0 9px #262626;
   width: 20%;
   margin-bottom: 20px;
-  position: absolute;
 }
 
 .buttonRight {
@@ -109,5 +110,4 @@ p {
   box-shadow: 0 9px #262626;
   width: 20%;
   margin-bottom: 20px;
-  position: absolute;
 }
