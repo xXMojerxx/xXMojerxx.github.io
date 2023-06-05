@@ -67,7 +67,8 @@ p {
   color: #ffffff;
   background-color: #474747;
   float: right;
-  position: absolute;
+  position: right;
+  position: abosolute;
 }
 
 .textArtMarkdown {
