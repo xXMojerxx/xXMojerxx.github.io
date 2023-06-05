@@ -36,7 +36,11 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.hidden {
+.hiddenLeft {
+  display: none;
+}
+
+.hiddenRight {
   display: none;
 }
 
