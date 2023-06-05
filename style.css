@@ -50,6 +50,7 @@ p {
   color: #ffffff;
   background-color: #474747;
   float: left;
+  float-value: 1;
 }
 
 .hiddenTextRight {
@@ -88,8 +89,7 @@ p {
   box-shadow: 0 9px #262626;
   width: 20%;
   margin-bottom: 20px;
-  float: left;
-  float: value 1;
+  position: absolute;
 }
 
 .buttonRight {
@@ -109,6 +109,5 @@ p {
   box-shadow: 0 9px #262626;
   width: 20%;
   margin-bottom: 20px;
-  float: right;
-  float: value 1;
+  position: absolute;
 }
