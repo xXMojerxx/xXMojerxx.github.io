@@ -8,22 +8,12 @@
 </head>
 <body>
   <script>
-  // Excuse repeated code, forogot how to make it simpler :/
-  function toggleTextLeft() {
+  function toggleText() {
      var text = document.getElementById("hiddenLeft");
      if (text.style.display === "none") {
        text.style.display = "block";
      } else {
        text.style.display = "none";
-     }
-  }
-    
-  function toggleTextRight() {
-     var text1 = document1.getElementById("hiddenRight");
-     if (text1.style.display === "none") {
-       text1.style.display = "block";
-     } else {
-       text1.style.display = "none";
      }
   }
   </script>
@@ -33,13 +23,9 @@
     <p> Hello there! My name is Jude, I am an active coding-language learner, I love making art with text, and I love playing volleyball! Here are some other things that inspire/intrigue me: </p>
   </div>
   <div class= "hiddenTextLeft">
-    <p id='hiddenLeft' class='hiddenLeft'> AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT </p> 
+    <p id='hiddenLeft' class='hiddenLeft'> - Video Games (MMORPG's [FFXIV] \n - Anime \n - Other things </p> 
   </div>
-  <div class= "hiddenTextRight">
-    <p id='hiddenRight' class='hiddenRight'> AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT AMONG US MOMENT </p> 
-  </div>
-    <button class="buttonLeft" onclick="toggleTextLeft()"> FUNNY BUTTON </button>
-    <button class="buttonRight" onclick="toggleTextRight()"> FUNNY BUTTON #2 </button>
+    <button class="buttonLeft" onclick="toggleText()"> '~' </button>
 </body>
 
 </html>
