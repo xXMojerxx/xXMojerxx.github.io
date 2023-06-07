@@ -44,7 +44,8 @@ p {
 }
 
 .hiddenTextLeft {
-  width: 23%;
+  width: 24%;
+  margin-left: 5px;
   margin-left: 5px;
   font-size: 18px;
   text-align: left;
@@ -53,18 +54,6 @@ p {
   background-color: #474747;
   float: left;
   position: absolute;
-}
-
-.hiddenTextRight {
-  width: 23%;
-  margin-right: 5px;
-  font-size: 18px;
-  text-align: right;
-  text-decornation: none;
-  color: #ffffff;
-  background-color: #474747;
-  position: right;
-  float: right;
 }
 
 .textArtMarkdown {
@@ -93,21 +82,3 @@ p {
   margin-bottom: 20px;
 }
 
-.buttonRight {
-  display: inline-block;
-  padding: 21px 25px;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #ffffff;
-  background-color: #474747;
-  border: none;
-  border-radius: 15px;
-  margin-left: 9%;
-  margin-right: 25%;
-  box-shadow: 0 9px #262626;
-  width: 20%;
-  margin-bottom: 20px;
-}
