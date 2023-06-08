@@ -36,17 +36,16 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
-.hiddenLeft{
-  display: none;
-}
-.hiddenRight{
+.hidden{
   display: none;
 }
 
-.hiddenTextLeft {
-  width: 24%;
-  margin-left: 5px;
-  margin-left: 5px;
+.hiddenText{
+  border: none;
+  border-radius: 15px;
+  width: 40%;
+  margin-right: 3%;
+  margin-left: 47%;
   font-size: 18px;
   text-align: left;
   text-decornation: none;
