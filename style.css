@@ -55,7 +55,7 @@ p {
   border-radius: 15px;
   width: 40%;
   margin-right: 3%;
-  margin-left: 40%;
+  margin-left: 35%;
   font-size: 18px;
   text-align: left;
   text-decornation: none;
@@ -63,14 +63,6 @@ p {
   background-color: #474747;
   float: left;
   position: absolute;
-}
-
-.textArtMarkdown {
-  color: #8f8f8f;
-  background: #424242;
-  margin-left: 25%;
-  margin-right: 25%;
-  font-size: 18px;
 }
 
 .buttonLeft {
@@ -85,9 +77,9 @@ p {
   background-color: #474747;
   border: none;
   border-radius: 15px;
-  margin-left: 18%;
+  margin-left: 25%;
   box-shadow: 0 9px #262626;
-  width: 20%;
+  width: 13%;
   margin-bottom: 20px;
 }
 
