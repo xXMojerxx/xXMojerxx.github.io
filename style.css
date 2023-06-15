@@ -1,5 +1,7 @@
 body {
-  background-color: #baaf9b;
+  background: linear-gradient(-45deg, #001710, #061f11, #05191c);
+  background-size: 800% 800%;
+  animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -15,13 +17,7 @@ body {
 }
 
 h1 {
-  background: linear-gradient(-45deg, #001710, #061f11, #05191c);
-  background-size: 800% 800%;
-  animation: gradient 15s ease infinite;
-  border: none;
-  border-radius: 15px;
   color: #FAF9F6;
-  padding: 3% 4%;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 3%;
@@ -30,19 +26,13 @@ h1 {
 }
 
 p {
-  background: linear-gradient(-45deg, #001710, #061f11, #05191c);
-  background-size: 800% 800%;
-  animation: gradient 15s ease infinite;
-  border: none;
-  border-radius: 4px;
-  padding: 3% 4%;
   margin-left: 25%;
   margin-right: 25%;
 }
 
 .mainText {
   color: #FAF9F6;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -53,7 +43,7 @@ p {
 .hiddenText{
   border: none;
   border-radius: 15px;
-  width: 30%;
+  width: 34%;
   margin-right: 3%;
   margin-left: 40%;
   font-size: 18px;
