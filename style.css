@@ -15,6 +15,11 @@ body {
 }
 
 h1 {
+  background: linear-gradient(-45deg, #001710, #061f11, #05191c);
+  background-size: 800% 800%;
+  animation: gradient 15s ease infinite;
+  border: none;
+  border-radius: 15px;
   color: #FAF9F6;
   margin-left: 25%;
   margin-right: 25%;
@@ -27,6 +32,8 @@ p {
   background: linear-gradient(-45deg, #001710, #061f11, #05191c);
   background-size: 800% 800%;
   animation: gradient 15s ease infinite;
+  border: none;
+  border-radius: 15px;
   padding: 3% 4%;
   margin-left: 25%;
   margin-right: 25%;
