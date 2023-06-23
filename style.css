@@ -1,19 +1,13 @@
-body {
-  background: linear-gradient(-45deg, #001710, #061f11, #05191c);
-  background-size: 800% 800%;
-  animation: gradient 15s ease infinite;
+@font-face {
+  font-family: "Main Font";
+  src: url("css/fonts/some-font.eot");
+  src: url("css/fonts/some-font.woff") format("woff"),
+       url("css/fonts/some-font.otf") format("opentype"),
+       url("css/fonts/some-font.svg#filename") format("svg");
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+body {
+  background: #001710;
 }
 
 h1 {
