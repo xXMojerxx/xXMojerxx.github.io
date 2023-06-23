@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Main Font";
-  src: url("css/fonts/some-font.eot");
-  src: url("css/fonts/some-font.woff") format("woff"),
-       url("css/fonts/some-font.otf") format("opentype"),
-       url("css/fonts/some-font.svg#filename") format("svg");
-}
-
 body {
   background: #001710;
 }
