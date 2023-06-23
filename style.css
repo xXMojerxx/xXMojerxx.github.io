@@ -75,6 +75,7 @@ p {
   box-shadow: 0 9px #262626;
   width: 13%;
   margin-bottom: 20px;
+  position: absolute;
 }
 
 .buttonRight {
@@ -93,4 +94,5 @@ p {
   box-shadow: 0 9px #262626;
   width: 13%;
   margin-bottom: 20px;
+  position: absolute;
 }
