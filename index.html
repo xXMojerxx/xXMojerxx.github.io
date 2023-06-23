@@ -8,14 +8,25 @@
 </head>
 <body>
   <script>
-  function toggleText(placement) {
-     var text = document.getElementById("hidden" + placement);
-     if (text.style.display === "none") {
-       text.style.display = "block";
+    
+  function toggleTextLeft() {
+     var textLeft = document.getElementById("hiddenLeft");
+     if (textLeft.style.display === "none") {
+       textLeft.style.display = "block";
      } else {
-       text.style.display = "none";
+       textLeft.style.display = "none";
      }
   }
+    
+  function toggleTextRight() {
+     var textRight = document.getElementById("hiddenRight");
+     if (textRight.style.display === "none") {
+       textRight.style.display = "block";
+     } else {
+       textRight.style.display = "none";
+     }
+  }
+  
   </script>
   <h1> // FUNNY WEBSITE :) </h1>
   <br>
