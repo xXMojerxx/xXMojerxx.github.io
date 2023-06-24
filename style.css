@@ -128,7 +128,7 @@ b {
   font-size: 24px;
   cursor: pointer;
   
-   /* text, font, and color */
+  /* text, font, and color */
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -146,3 +146,24 @@ b {
   margin-bottom: 20px;
   position: absolute;
 }
+
+.textArt {
+  /* text, font, and color */
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  text-decoration: none;
+  outline: none;
+  color: #a3a3a3;
+  background-color: #292929;
+
+  /* shape of area */
+  border: none;
+  border-radius: 5px;
+  width: 18%;
+  
+  /* position */
+  margin-left: 40%;
+  margin-bottom: 20px;
+  position: absolute;
+}
+  
