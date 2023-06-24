@@ -59,10 +59,12 @@ b {
   color: #ffffff;
   background-color: #474747;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
   /* shape of text */
   border: none;
   border-radius: 15px;
   width: 22%;
+  
   /* position */
   margin-left: 1%;
   float: left;
@@ -77,10 +79,12 @@ b {
   background-color: #474747;
   color: #ffffff;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
   /* shape of text */
   border: none;
   border-radius: 8px;
   width: 22%;
+  
   /* position */
   margin-left: 75%;
   margin-right: 1%;
@@ -94,17 +98,20 @@ b {
   padding: 21px 25px;
   font-size: 24px;
   cursor: pointer;
+  
    /* text, font, and color */
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #ffffff;
   background-color: #474747;
+  
   /* shape of button */
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
   width: 13%;
+  
   /* position */
   margin-left: 25%;
   margin-bottom: 20px;
@@ -117,17 +124,20 @@ b {
   padding: 21px 25px;
   font-size: 24px;
   cursor: pointer;
+  
    /* text, font, and color */
   text-align: center;
   text-decoration: none;
   outline: none;
   color: #ffffff;
   background-color: #474747;
+  
   /* shape of button */
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
   width: 13%;
+  
   /* position */
   margin-left: 60%;
   margin-bottom: 20px;
