@@ -8,13 +8,16 @@
 </head>
 <body>
   <script>
-    
   function toggleTextLeft() {
-     var textLeft = document.getElementById("hiddenLeft");
-     if (textLeft.style.display === "none") {
-       textLeft.style.display = "block";
+     var textLeftOne = document.getElementById("hiddenLeftOne");
+     var textLeftTwo = document.getElementById("hiddenLeftTwo");
+    //excuse the repeated code, forogr how to make it better :P
+     if ((textLeftOne.style.display === "none") && (textLeftTwo.style.display === "none")) {
+       textLeftOne.style.display = "block";
+       textLeftTwo.style.display = "block";
      } else {
-       textLeft.style.display = "none";
+       textLeftOne.style.display = "none";
+       textLeftTwo.style.display = "none";
      }
   }
     
