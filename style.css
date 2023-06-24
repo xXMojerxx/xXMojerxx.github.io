@@ -96,7 +96,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1.5vw;
+  font-size: 1vw;
   cursor: pointer;
   
    /* text, font, and color */
@@ -122,7 +122,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1.5vw;
+  font-size: 1vw;
   cursor: pointer;
   
   /* text, font, and color */
