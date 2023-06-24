@@ -37,7 +37,7 @@ b {
   color: #e0e0e0;
   font-size: 16px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .hiddenRight{
@@ -68,6 +68,7 @@ b {
   
   /* position */
   margin-left: 1%;
+  margin-bottom: 5%
   float: left;
   position: absolute;
 }
@@ -89,6 +90,7 @@ b {
   /* position */
   margin-left: 75%;
   margin-right: 1%;
+  margin-bottom: 5%
   float: left;
   position: absolute;
 }
