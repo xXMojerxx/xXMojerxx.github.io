@@ -58,6 +58,7 @@ b {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   /* shape of text */
   border: none;
   border-radius: 15px;
@@ -75,6 +76,7 @@ b {
   text-decornation: none;
   background-color: #474747;
   color: #ffffff;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
   /* shape of text */
   border: none;
   border-radius: 8px;
