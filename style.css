@@ -53,7 +53,7 @@ b {
 
 .hiddenTextLeft{
   /* text, font, and color */
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
   text-decornation: none;
   color: #ffffff;
@@ -70,7 +70,7 @@ b {
 
 .hiddenTextRight{
   /* text, font, and color */
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
   text-decornation: none;
   background-color: #474747;
