@@ -4,94 +4,23 @@ body{
   background-size: cover;
   font-family: "Comic Sans MS", "Comic Sans";
 }
-  a{
-    color: mediumseagreen;
-  }
-  .c1{
-    display: inline-block;
-  }
-  .c2{
-    display: inline-block;
-  }
-  .c3{
-    display: inline-block;
-  }
-  .c4{
-    display: inline-block;
-  }
-  .c5{
-    display: inline-block;
-  }
-  .c6{
-    display: inline-block;
-  }
-  .textLocation {
-    color: #e0e0e0;
-    margin-bottom: 15px;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-  p .type{
-      font-size: 2.5rem;
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-  }
-  p .type2{
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-      animation-delay: 1s;
-  }
-  p .type3{
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-      animation-delay: 2s;
-  }
-  p .type4{
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-      animation-delay: 3s;
-  }
-  p .type5{
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-      animation-delay: 4s;
-  }
-  p .type6{
-      font-size: 2.5rem; 
-      overflow: hidden;
-      border-right: .15em solid orange; 
-      white-space: nowrap; 
-      width: 0;
-      animation: typing 1s steps(25, end) forwards;
-      animation-delay: 5s;
-  }
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
-  }
+
+.container{
+  display: inline-block;
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  animation: typing 0.4s steps(8, end) forwards;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
 /* typewritter effect */
 
 
@@ -120,7 +49,7 @@ i {
 b {
   color: #FAF9F6;
 }
-/*
+
 .mainText{
   color: #e0e0e0;
   font-family: "Comic Sans MS", "Comic Sans";
@@ -128,7 +57,7 @@ b {
   margin-left: 25%;
   margin-right: 25%;
 }
-*/
+
 .hiddenRight{
   display: none;
 }
