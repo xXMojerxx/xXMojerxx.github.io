@@ -5,11 +5,10 @@
 }
 .typed-out{
   overflow: hidden;
-  border-right: .15em solid orange;
+  border-right: .15em solid white;
   white-space: nowrap;
   animation: 
     typing 1s forwards;
-  font-size: 1.6rem;
   width: 0;
 }
 @keyframes typing {
@@ -51,7 +50,7 @@ b {
 
 .mainText {
   color: #e0e0e0;
-  font-size: 16px;
+  font-size: 16rem;
   font-family: "Comic Sans MS", "Comic Sans";
   margin-bottom: 15px;
   margin-left: 25%;
