@@ -1,5 +1,8 @@
 /* typewritter effect */
 body{
+  background: #001710;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
   a{
     color: mediumseagreen;
   }
@@ -27,6 +30,7 @@ body{
     margin-right: 25%;
   }
   p .type{
+      color: #e0e0e0;
       font-size: 2.5rem;
       overflow: hidden;
       border-right: .15em solid white;
@@ -36,6 +40,7 @@ body{
         typing 1s steps(25, end) forwards;
   }
   p .type2{
+      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid white;
@@ -46,6 +51,7 @@ body{
       animation-delay: 1s;
   }
   p .type3{
+      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid white; 
@@ -56,6 +62,7 @@ body{
       animation-delay: 2s;
   }
   p .type4{
+      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid white; 
@@ -66,6 +73,7 @@ body{
       animation-delay: 2s;
   }
   p .type5{
+      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid white; 
@@ -76,6 +84,7 @@ body{
       animation-delay: 2s;
   }
   p .type6{
+      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid white; 
@@ -91,9 +100,6 @@ body{
   }
 /* typewritter effect */
 
-body {
-  background: #001710;
-}
 
 h1 {
   color: #FAF9F6;
