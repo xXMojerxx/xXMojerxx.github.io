@@ -1,6 +1,7 @@
 /* typewritter effect */
 body{
   background: #001710;
+  background-size: cover;
   font-family: "Comic Sans MS", "Comic Sans";
 }
   a{
@@ -33,7 +34,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem;
       overflow: hidden;
-      border-right: .15em solid white;
+      border-right: .15em solid orange;
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -43,7 +44,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid white;
+      border-right: .15em solid orange;
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -54,7 +55,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid white; 
+      border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -65,7 +66,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid white; 
+      border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -76,7 +77,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid white; 
+      border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -87,7 +88,7 @@ body{
       color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
-      border-right: .15em solid white; 
+      border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
       animation: 
@@ -97,6 +98,10 @@ body{
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
   }
 /* typewritter effect */
 
