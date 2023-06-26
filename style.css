@@ -1,21 +1,16 @@
 /* typewritter effect */
 
 .container{
-  margin-bottom: 15px;
-  margin-left: 25%;
-  margin-right: 25%;
+  display: inline-block;
 }
 .typed-out{
   overflow: hidden;
   border-right: .15em solid white;
   white-space: nowrap;
+  font-size: 16rem;
   animation: 
     typing 1s forwards;
   width: 0;
-  /* text and color */
-  color: #e0e0e0;
-  font-size: 16rem;
-  font-family: "Comic Sans MS", "Comic Sans";
 }
 @keyframes typing {
   from { width: 0 }
@@ -54,6 +49,14 @@ b {
   color: #FAF9F6;
 }
 
+.mainText{
+  /* text and color */
+  color: #e0e0e0;
+  font-family: "Comic Sans MS", "Comic Sans";
+  margin-bottom: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .hiddenRight{
   display: none;
 }
