@@ -26,74 +26,63 @@ body{
     display: inline-block;
   }
   .textLocation {
+    color: #e0e0e0;
     margin-bottom: 15px;
     margin-left: 25%;
     margin-right: 25%;
   }
   p .type{
-      color: #e0e0e0;
       font-size: 2.5rem;
       overflow: hidden;
       border-right: .15em solid orange;
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
+      animation: typing 1s steps(25, end) forwards;
   }
   p .type2{
-      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid orange;
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
+      animation: typing 1s steps(25, end) forwards;
       animation-delay: 1s;
   }
   p .type3{
-      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
+      animation: typing 1s steps(25, end) forwards;
       animation-delay: 2s;
   }
   p .type4{
-      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-      animation-delay: 2s;
+      animation: typing 1s steps(25, end) forwards;
+      animation-delay: 3s;
   }
   p .type5{
-      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-      animation-delay: 2s;
+      animation: typing 1s steps(25, end) forwards;
+      animation-delay: 4s;
   }
   p .type6{
-      color: #e0e0e0;
       font-size: 2.5rem; 
       overflow: hidden;
       border-right: .15em solid orange; 
       white-space: nowrap; 
       width: 0;
-      animation: 
-        typing 1s steps(25, end) forwards;
-      animation-delay: 2s;
+      animation: typing 1s steps(25, end) forwards;
+      animation-delay: 5s;
   }
   @keyframes typing {
     from { width: 0 }
