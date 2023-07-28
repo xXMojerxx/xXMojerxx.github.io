@@ -45,7 +45,7 @@ b {
 .mainText {
   color: #e0e0e0;
   font-size: 19px;
-  font-family: 'Daydream';
+  font-family: 'pixelFont';
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
@@ -70,7 +70,7 @@ b {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
-  font-family: 'Daydream';
+  font-family: 'pixelFont';
   
   /* shape of text */
   border: none;
@@ -91,7 +91,7 @@ b {
   text-decornation: none;
   background-color: #474747;
   color: #ffffff;
-  font-family: 'Daydream';
+  font-family: 'pixelFont';
   
   /* shape of text */
   border: none;
@@ -110,7 +110,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1vw;
+  font-size: 0.7vw;
   cursor: pointer;
   
    /* text, font, and color */
@@ -137,7 +137,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1vw;
+  font-size: 0.7vw;
   cursor: pointer;
   
   /* text, font, and color */
