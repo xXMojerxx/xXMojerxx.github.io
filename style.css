@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Daydream';
+    src: url("../fonts/Daydream.ttf") format('truetype');
+    font-weight: Extra Light;
+    font-style: normal;
+}
+
 body {
   background: #001710;
 }
