@@ -51,7 +51,7 @@ b {
 
 .mainText {
   color: #e0e0e0;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'nintendoFont';
   margin-bottom: 15px;
   margin-left: 25%;
@@ -72,7 +72,7 @@ b {
 
 .hiddenTextLeft{
   /* text, font, and color */
-  font-size: 18px;
+  font-size: 24px;
   text-align: left;
   text-decornation: none;
   color: #ffffff;
@@ -93,7 +93,7 @@ b {
 
 .hiddenTextRight{
   /* text, font, and color */
-  font-size: 18px;
+  font-size: 24px;
   text-align: left;
   text-decornation: none;
   background-color: #474747;
@@ -117,7 +117,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 0.7vw;
+  font-size: 1.5vw;
   cursor: pointer;
   
    /* text, font, and color */
@@ -144,7 +144,7 @@ b {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 0.7vw;
+  font-size: 1.5vw;
   cursor: pointer;
   
   /* text, font, and color */
