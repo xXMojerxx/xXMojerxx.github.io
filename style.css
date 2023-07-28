@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'pixelFont';
-    src: url("/fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
-    font-weight: bold;
+    src: url("../fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -15,7 +15,7 @@ h1 {
   margin-right: 25%;
   margin-top: 3%;
   font-size: 30px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'pixelFont';
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
   margin-right: 5%;
   margin-top: 5%;
   font-size: 18px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'pixelFont';
 }
 
 i {
@@ -63,7 +63,7 @@ b {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'pixelFont';
   
   /* shape of text */
   border: none;
