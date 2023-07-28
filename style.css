@@ -13,9 +13,9 @@
 }
 
 @font-face {
-    font-family: 'Daydream';
-    src: url("../fonts/Daydream.ttf") format('truetype');
-    font-weight: Extra Light;
+    font-family: 'runescape';
+    src: url("../fonts/runescape_uf.ttf") format('truetype');
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -38,7 +38,7 @@ h2 {
   margin-right: 5%;
   margin-top: 5%;
   font-size: 18px;
-  font-family: 'Daydream';
+  font-family: 'pixelFont';
 }
 
 i {
@@ -52,7 +52,7 @@ b {
 .mainText {
   color: #e0e0e0;
   font-size: 16px;
-  font-family: 'pixelFont';
+  font-family: 'runescape';
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
@@ -77,7 +77,7 @@ b {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
-  font-family: 'pixelFont';
+  font-family: 'runescape';
   
   /* shape of text */
   border: none;
@@ -98,7 +98,7 @@ b {
   text-decornation: none;
   background-color: #474747;
   color: #ffffff;
-  font-family: 'pixelFont';
+  font-family: 'runescape';
   
   /* shape of text */
   border: none;
@@ -121,7 +121,7 @@ b {
   cursor: pointer;
   
    /* text, font, and color */
-  font-family: 'Daydream';
+  font-family: 'runescape';
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -148,7 +148,7 @@ b {
   cursor: pointer;
   
   /* text, font, and color */
-  font-family: 'Daydream';
+  font-family: 'runescape';
   text-align: center;
   text-decoration: none;
   outline: none;
