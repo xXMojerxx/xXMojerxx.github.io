@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'pixelFont';
+    src: url("/fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
   background: #001710;
 }
@@ -31,7 +38,7 @@ b {
 .mainText {
   color: #e0e0e0;
   font-size: 16px;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'pixelFont';
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
