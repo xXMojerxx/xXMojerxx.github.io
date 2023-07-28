@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Daydream';
+    src: url("../fonts/Daydream.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background: #001710;
 }
@@ -15,7 +22,7 @@ h1 {
   margin-right: 25%;
   margin-top: 3%;
   font-size: 33px;
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
 }
 
 h2 {
@@ -24,7 +31,7 @@ h2 {
   margin-right: 5%;
   margin-top: 5%;
   font-size: 21px;
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
 }
 
 i {
@@ -38,7 +45,7 @@ b {
 .mainText {
   color: #e0e0e0;
   font-size: 19px;
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
@@ -63,7 +70,7 @@ b {
   text-decornation: none;
   color: #ffffff;
   background-color: #474747;
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
   
   /* shape of text */
   border: none;
@@ -84,7 +91,7 @@ b {
   text-decornation: none;
   background-color: #474747;
   color: #ffffff;
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
   
   /* shape of text */
   border: none;
@@ -107,7 +114,7 @@ b {
   cursor: pointer;
   
    /* text, font, and color */
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -134,7 +141,7 @@ b {
   cursor: pointer;
   
   /* text, font, and color */
-  font-family: 'pixelFont';
+  font-family: 'Daydream';
   text-align: center;
   text-decoration: none;
   outline: none;
