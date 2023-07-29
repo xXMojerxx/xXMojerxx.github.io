@@ -24,10 +24,11 @@ body {
 }
 
 h1 {
-  /* color, text style */
+  /* color, text style*/
   color: #FAF9F6;
   background: #014732;
-  padding: 10px 10px;
+  padding: 22px 22px;
+  border-radius: 8px;
   font-size:  3.1vw;
   font-family: 'Daydream';
 
