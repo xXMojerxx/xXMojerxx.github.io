@@ -24,12 +24,17 @@ body {
 }
 
 h1 {
+  /* color, text style */
   color: #FAF9F6;
+  background: #014732;
+  padding: 10px 10px;
+  font-size:  3.1vw;
+  font-family: 'Daydream';
+
+  /* positioning */
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 3%;
-  font-size:  3.1vw;
-  font-family: 'Daydream';
 }
 
 h2 {
@@ -60,7 +65,7 @@ a {
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
-  text-indent: 3px;
+  text-indent: 5px;
 }
 
 .hiddenRightOne{
