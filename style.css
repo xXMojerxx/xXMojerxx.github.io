@@ -76,12 +76,13 @@ b {
   text-align: left;
   text-decornation: none;
   color: #ffffff;
-  background-color: #474747;
+  background-color: #013827;
   font-family: 'nintendoFont';
+  outline: 1px solid white;
   
   /* shape of text */
   border: none;
-  border-radius: 15px;
+  border-radius: 5px;
   width: 22%;
   
   /* position */
@@ -96,13 +97,14 @@ b {
   font-size: 26px;
   text-align: left;
   text-decornation: none;
-  background-color: #474747;
+  background-color: #013827;
   color: #ffffff;
   font-family: 'nintendoFont';
+  outline: 1px solid white;
   
   /* shape of text */
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   width: 22%;
   
   /* position */
