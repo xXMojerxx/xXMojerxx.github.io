@@ -22,11 +22,14 @@
   }
     
   function toggleTextRight() {
-     var textRight = document.getElementById("hiddenRight");
-     if (textRight.style.display === "none") {
-       textRight.style.display = "block";
+     var textRightOne = document.getElementById("hiddenRightOne");
+     var textRightTwo = document.getElementById("hiddenLeftTwo");
+     if ((textRightOne.style.display === "none") && (textRightTwo.style.display === "none")) {
+       textRightOne.style.display = "block";
+       textRightTwo.style.display = "block";
      } else {
-       textRight.style.display = "none";
+       textRightOne.style.display = "none";
+       textRightTwo.style.display = "none";
      }
   }
   
