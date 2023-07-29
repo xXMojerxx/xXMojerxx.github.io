@@ -124,7 +124,7 @@ b {
   font-family: 'nintendoFont';
   text-align: center;
   text-decoration: none;
-  outline: none;
+  outline: 1px solid white;
   color: #ffffff;
   background-color: #474747;
   
@@ -151,7 +151,7 @@ b {
   font-family: 'nintendoFont';
   text-align: center;
   text-decoration: none;
-  outline: none;
+  outline: 1px solid white;
   color: #ffffff;
   background-color: #474747;
   
