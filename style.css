@@ -49,6 +49,10 @@ b {
   color: #FAF9F6;
 }
 
+a {
+  color: #2de3ac;
+}
+
 .mainText {
   color: #e0e0e0;
   font-size: 28px;
@@ -58,7 +62,11 @@ b {
   margin-right: 25%;
 }
 
-.hiddenRight{
+.hiddenRightOne{
+  display: none;
+}
+
+.hiddenRightTwo{
   display: none;
 }
 
