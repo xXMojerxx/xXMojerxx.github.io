@@ -60,6 +60,7 @@ a {
   margin-bottom: 15px;
   margin-left: 25%;
   margin-right: 25%;
+  text-indent: 3px;
 }
 
 .hiddenRightOne{
@@ -87,6 +88,7 @@ a {
   background-color: #013827;
   font-family: 'nintendoFont';
   outline: none;
+  text-indent: 3px;
   
   /* shape of text */
   border: none;
@@ -98,6 +100,7 @@ a {
   margin-bottom: 5%
   float: left;
   position: absolute;
+  
 }
 
 .hiddenTextRight{
@@ -108,6 +111,7 @@ a {
   color: #ffffff;
   font-family: 'nintendoFont';
   outline: none;
+  text-indent: 3px;
   
   /* shape of text */
   border: none;
