@@ -102,9 +102,8 @@ a {
   width: 22%;
   
   /* position */
-  margin-left: 1%;
-  margin-bottom: 5%
-  float: left;
+  margin-left: 25%;
+  margin-bottom: 20px;
   position: absolute;
   
 }
