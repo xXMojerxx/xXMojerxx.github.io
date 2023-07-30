@@ -87,7 +87,7 @@ a {
 
 .hiddenTextLeft{
   /* text, font, and color */
-  font-size: 0.9vw;
+  font-size: 1.3vw;
   text-align: left;
   text-decornation: none;
   color: #ffffff;
@@ -109,7 +109,7 @@ a {
 
 .hiddenTextRight{
   /* text, font, and color */
-  font-size: 0.9vw;
+  font-size: 1.3vw;
   text-align: left;
   background-color: #292929;
   color: #ffffff;
