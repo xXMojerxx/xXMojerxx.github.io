@@ -95,7 +95,6 @@ a {
   font-family: 'nintendoFont';
   outline: none;
   text-indent: 3px;
-  padding: 5px 5px;
   
   /* shape of text */
   border: none;
@@ -105,7 +104,6 @@ a {
   /* position */
   margin-top: 4%
   margin-left: 25%;
-  margin-bottom: 20px;
   position: absolute;
 }
 
@@ -118,7 +116,6 @@ a {
   font-family: 'nintendoFont';
   outline: none;
   text-indent: 3px;
-  padding: 5px 5px;
   
   /* shape of text */
   border: none;
@@ -128,7 +125,6 @@ a {
   /* position */
   margin-top: 4%;
   margin-left: 60%;
-  margin-bottom: 20px;
   position: absolute;
 }
 
