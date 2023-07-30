@@ -103,9 +103,7 @@ a {
   
   /* position */
   margin-left: 25%;
-  margin-bottom: 20px;
-  position: absolute;
-  
+  margin-bottom: 20px;  
 }
 
 .hiddenTextRight{
@@ -126,7 +124,6 @@ a {
   /* position */
   margin-left: 60%;
   margin-bottom: 20px;
-  position: absolute;
 }
 
 .buttonLeft {
