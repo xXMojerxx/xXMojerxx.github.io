@@ -43,7 +43,7 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
-  font-size: 18px;
+  font-size: 1.1vw;
   font-family: 'pixelFont';
 }
 
@@ -87,7 +87,7 @@ a {
 
 .hiddenTextLeft{
   /* text, font, and color */
-  font-size: 26px;
+  font-size: 0.9vw;
   text-align: left;
   text-decornation: none;
   color: #ffffff;
@@ -109,7 +109,7 @@ a {
 
 .hiddenTextRight{
   /* text, font, and color */
-  font-size: 26px;
+  font-size: 0.9vw;
   text-align: left;
   background-color: #292929;
   color: #ffffff;
