@@ -125,10 +125,8 @@ a {
   width: 22%;
   
   /* position */
-  margin-left: 75%;
-  margin-right: 1%;
-  margin-bottom: 5%
-  float: left;
+  margin-left: 60%;
+  margin-bottom: 20px;
   position: absolute;
 }
 
