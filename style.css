@@ -205,27 +205,4 @@ a {
   margin-bottom: 20px;
   position: absolute;
 }
-
-.notepad {
-  /* text, font, and color */
-  color: #000000;
-  font-family: 'nintendoFont';
-  background: #c9b447;
-  font-size: 28px;
-  border-top: 5px solid #8a7c33;
-  text-indent: 7px;
-
-  /* shape of area */
-  padding: 6px 5px;
-  border: none;
-  border-radius: 5px;
-  width: 36%;
-  height: 36%;
-    
-  
-  /* position */
-  margin-top: 20%;
-  margin-left: 32%;
-  margin-right: 32%;
-}
   
