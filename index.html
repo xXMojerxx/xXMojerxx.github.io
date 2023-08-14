@@ -5,36 +5,10 @@
 <head>
   <title> /* jomer page */ </title>
   <link href="style.css" rel="stylesheet">
-  <script type="text/javascript" src="js/hello.js"></script>
+  <script type="text/javascript" src="../numberGenerator.js"></script>
+  <script type="text/javascript" src="../button.js"></script>
 </head>
 <body>
-  <script>
-  function toggleTextLeft() {
-     var textLeftOne = document.getElementById("hiddenLeftOne");
-     var textLeftTwo = document.getElementById("hiddenLeftTwo");
-    //excuse the repeated code, forogr how to make it better :P
-     if ((textLeftOne.style.display === "none") && (textLeftTwo.style.display === "none")) {
-       textLeftOne.style.display = "block";
-       textLeftTwo.style.display = "block";
-     } else {
-       textLeftOne.style.display = "none";
-       textLeftTwo.style.display = "none";
-     }
-  }
-    
-  function toggleTextRight() {
-     var textRightOne = document.getElementById("hiddenRightOne");
-     var textRightTwo = document.getElementById("hiddenRightTwo");
-     if ((textRightOne.style.display === "none") && (textRightTwo.style.display === "none")) {
-       textRightOne.style.display = "block";
-       textRightTwo.style.display = "block";
-     } else {
-       textRightOne.style.display = "none";
-       textRightTwo.style.display = "none";
-     }
-  }
-  
-  </script>
   <!-- title -->
   <h1> // FUNNY WEBSITE :) </h1>
   <!-- title -->
@@ -103,7 +77,8 @@
   <!-- text for right side -->
 
   <div class="mainText" style="margin-top: 16%">
-     <p id="numberGenerator"> NUMBER HERE </p>
+    <p id="numberGenerator">NUMBER HERE</p>
+    <button onclick="randomNumber()"></button>
 </body>
 
 </html>
