@@ -43,7 +43,7 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 5%;
-  font-size: 1vw;
+  font-size: 2.1vw;
   font-family: 'pixelFont';
 }
 
@@ -109,7 +109,7 @@ a {
 
 .hiddenTextRight{
   /* text, font, and color */
-  font-size: 1.3vw;
+  font-size: 2vw;
   text-align: left;
   background-color: #292929;
   color: #ffffff;
@@ -132,7 +132,7 @@ a {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   cursor: pointer;
   
    /* text, font, and color */
@@ -147,7 +147,7 @@ a {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
-  width: 13%;
+  width: 14%;
   
   /* position */
   margin-left: 20%;
@@ -159,7 +159,7 @@ a {
   /* shape of button */
   display: inline-block;
   padding: 21px 25px;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   cursor: pointer;
   
   /* text, font, and color */
@@ -174,7 +174,7 @@ a {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
-  width: 13%;
+  width: 14%;
   
   /* position */
   margin-left: 67%;
@@ -184,7 +184,7 @@ a {
 
 .textArt {
   /* text, font, and color */
-  font-size: 1vw;
+  font-size: 1.3vw;
   padding-left: 2%;
   padding-right: 2%;
   text-align: center;
@@ -200,8 +200,8 @@ a {
   width: 21%;
   
   /* position */
-  margin-left: 39.5%;
-  margin-right: 45%;
+  margin-left: 34.5%;
+  margin-right: 50%;
   margin-bottom: 20px;
   position: absolute;
 }
