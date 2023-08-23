@@ -99,10 +99,10 @@ a {
   /* shape of text */
   border: none;
   border-radius: 5px;
-  width: 15%;
+  width: 17%;
   
   /* position */
-  margin-top: 4%;
+  margin-top: 5%;
   margin-left: 20%;
   position: absolute;
 }
@@ -120,11 +120,11 @@ a {
   /* shape of text */
   border: none;
   border-radius: 5px;
-  width: 15%;
+  width: 17%;
   
   /* position */
-  margin-top: 4%;
-  margin-left: 67.2%;
+  margin-top: 5%;
+  margin-left: 63.2%;
   position: absolute;
 }
 
@@ -147,7 +147,7 @@ a {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
-  width: 15%;
+  width: 17%;
   
   /* position */
   margin-left: 20%;
@@ -174,10 +174,10 @@ a {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #262626;
-  width: 15%;
+  width: 17%;
   
   /* position */
-  margin-left: 67%;
+  margin-left: 63%;
   margin-bottom: 20px;
   position: absolute;
 }
