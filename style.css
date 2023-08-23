@@ -29,12 +29,12 @@ h1 {
   background: #013324;
   padding: 22px 22px;
   border-radius: 8px;
-  font-size:  3vw;
+  font-size:  3.5vw;
   font-family: 'Daydream';
 
   /* positioning */
-  margin-left: 24%;
-  margin-right: 24%;
+  margin-left: 19%;
+  margin-right: 19%;
   margin-top: 3%;
 }
 
@@ -64,8 +64,8 @@ a {
   font-size: 28px;
   font-family: 'nintendoFont';
   margin-bottom: 15px;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
   text-indent: 7px;
 }
 
@@ -87,7 +87,7 @@ a {
 
 .hiddenTextLeft{
   /* text, font, and color */
-  font-size: 1.3vw;
+  font-size: 2vw;
   text-align: left;
   text-decornation: none;
   color: #ffffff;
@@ -103,7 +103,7 @@ a {
   
   /* position */
   margin-top: 4%;
-  margin-left: 25%;
+  margin-left: 20%;
   position: absolute;
 }
 
@@ -124,7 +124,7 @@ a {
   
   /* position */
   margin-top: 4%;
-  margin-left: 61.2%;
+  margin-left: 67.2%;
   position: absolute;
 }
 
@@ -150,7 +150,7 @@ a {
   width: 13%;
   
   /* position */
-  margin-left: 25%;
+  margin-left: 20%;
   margin-bottom: 20px;
   position: absolute;
 }
@@ -177,7 +177,7 @@ a {
   width: 13%;
   
   /* position */
-  margin-left: 61%;
+  margin-left: 67%;
   margin-bottom: 20px;
   position: absolute;
 }
@@ -197,7 +197,7 @@ a {
   /* shape of area */
   border: none;
   border-radius: 5px;
-  width: 16%;
+  width: 21%;
   
   /* position */
   margin-left: 39.5%;
