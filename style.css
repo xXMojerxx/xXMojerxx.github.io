@@ -23,6 +23,12 @@ body {
   background: #001710;
 }
 
+.cool-background {
+  background: #004530;
+  border-radius: 8px;
+  border-top: #006b4b;
+}
+
 h1 {
   /* color, text style*/
   color: #FAF9F6;
