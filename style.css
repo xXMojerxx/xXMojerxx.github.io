@@ -25,8 +25,11 @@ body {
 
 .cool-background {
   background: #004530;
-  border-radius: 8px;
   border-top: #006b4b;
+  border-radius: 8px;
+  margin-left: 19%;
+  margin-right: 19%;
+  margin-top: 3%;
 }
 
 h1 {
