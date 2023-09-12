@@ -27,9 +27,12 @@ body {
   display: inline-block;
   position: absolute;
   background: #032e21;
-  border-color: #000000;
-  border-top: 24px;
-  border-style: solid;
+  /* lmao dont worry about this*/
+  border-top: 24px solid #000000;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  /* lmao dont worry about this*/
   border-radius: 8px;
   margin-left: 19%;
   margin-right: 19%;
