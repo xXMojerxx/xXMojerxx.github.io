@@ -21,7 +21,8 @@
 
 body {
   background: #001710;
-  background-image: url("/images/backgroundWebsite.png");
+  background-image: url("/images/backgroundImage.jpg");
+  background-size: 100%;
 }
 
 .coolBackground {
