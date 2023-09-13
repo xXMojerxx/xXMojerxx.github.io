@@ -28,7 +28,7 @@ body {
   position: absolute;
   background: #032e21;
   /* lmao dont worry about this */
-  border-top: 50px solid #041c15
+  border-top: 50px solid #041c15;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
@@ -37,7 +37,6 @@ body {
   margin-left: 19%;
   margin-right: 19%;
   margin-top: 3%;
-  
 }
 
 h1 {
