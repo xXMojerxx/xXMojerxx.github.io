@@ -1,22 +1,22 @@
 @font-face {
-    font-family: 'pixelFont';
-    src: url("../fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'pixelFont';
+  src: url("../fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Daydream';
-    src: url("../fonts/Daydream.ttf") format('truetype');
-    font-weight: Extra Light;
-    font-style: normal;
+  font-family: 'Daydream';
+  src: url("../fonts/Daydream.ttf") format('truetype');
+  font-weight: Extra Light;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'nintendoFont';
-    src: url("../fonts/Nintendo-DS-BIOS.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'nintendoFont';
+  src: url("../fonts/Nintendo-DS-BIOS.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
