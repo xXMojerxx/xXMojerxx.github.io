@@ -30,7 +30,7 @@ body {
   position: absolute;
   background: #1c362e;
   /* lmao dont worry about this */
-  border-top: 50px solid #0a211a;
+  border-top: 4vw solid #0a211a;
   border-bottom: 0;
   border-left: 0;
   border-right: 0;
@@ -226,8 +226,8 @@ a {
 
 .windowsThingy, img{
   position: absolute; 
-  width: 7vw;
-  margin-left: 10vw;
-  margin-top: 2.5vw;
+  width: 10vw; 
+  margin-top: -1.7vw;
+  margin-left: 0.5vw;
 }
   
