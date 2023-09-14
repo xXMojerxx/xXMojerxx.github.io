@@ -225,8 +225,7 @@ a {
 }
 
 .windowsThingy{
-  position: relative; 
+  position: absolute; 
   width:40vw; 
-  top:-40vw;
 }
   
