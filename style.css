@@ -223,4 +223,10 @@ a {
   margin-bottom: 20px;
   position: absolute;
 }
+
+.windowsThingy{
+  position: absolute; 
+  width:40vw; 
+  top: 40vw;
+}
   
