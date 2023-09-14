@@ -224,8 +224,10 @@ a {
   position: absolute;
 }
 
-.windowsThingy{
+.windowsThingy, img{
   position: absolute; 
-  width: 7vw; 
+  width: 7vw;
+  margin-left: 10vw;
+  margin-top: 2.5vw;
 }
   
