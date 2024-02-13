@@ -95,7 +95,7 @@
 </div>
 </html>
 ```
-#CSS
+# CSS
 ```css
 @font-face {
   font-family: 'pixelFont';
