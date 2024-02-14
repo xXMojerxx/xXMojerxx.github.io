@@ -24,7 +24,14 @@ body {
 }
 
 i {
-  color: #474747;
+  color: #535754;
+}
+
+.textBackground {
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin: 4vw;
 }
 
 .mainTitle {
