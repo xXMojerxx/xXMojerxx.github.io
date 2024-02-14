@@ -23,6 +23,10 @@ body {
   background-color: #001a07;
 }
 
+i {
+  color: #474747;
+}
+
 .mainTitle {
   color: #e0e0e0;
   font-size: 2vw;
@@ -39,6 +43,3 @@ body {
   margin-left: 40vw;
 }
 
-.comments {
-  color: #474747;
-}
