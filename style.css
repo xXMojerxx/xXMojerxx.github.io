@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: #001a07;
+  background-color: #010d04;
 }
 
 i {
@@ -41,5 +41,9 @@ i {
   font-family: 'nintendoFont';
   text-indent: 7px;
   margin-left: 40vw;
+}
+
+.checklist {
+  background-color: #001a07;
 }
 
