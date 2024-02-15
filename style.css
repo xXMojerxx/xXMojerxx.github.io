@@ -56,10 +56,20 @@ i {
   font-size: 1.5vw;
   font-family: 'nintendoFont';
   text-indent: 7px;
-  margin: 2vw 4vw 36vw 4vw;
+  margin: 2vw 4vw 3vw 36vw;
   position: absolute;
 }
 
 .checklist {
   background-color: #001a07;
+}
+
+input[type=checkbox] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
 }
