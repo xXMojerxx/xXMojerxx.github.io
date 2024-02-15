@@ -46,7 +46,7 @@ i {
 .text {
   margin: 3vw;
   color: #e0e0e0;
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: 'nintendoFont';
   text-indent: 7px;
 }
@@ -58,10 +58,12 @@ i {
   text-indent: 7px;
   margin: 2vw 4vw 3vw 36vw;
   position: absolute;
+  padding: 0px;
 }
 
 .checklist {
   background-color: #001a07;
+  padding: 0px;
 }
 
 input[type=checkbox] {
