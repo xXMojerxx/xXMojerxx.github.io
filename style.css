@@ -30,8 +30,9 @@ i {
 .textBackground {
   border-style: solid;
   border-color: white;
-  border-width: 3px;
+  border-width: 2px;
   margin: 4vw;
+  height: 100vw
 }
 
 .mainTitle {
