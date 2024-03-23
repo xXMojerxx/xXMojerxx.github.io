@@ -19,57 +19,91 @@
   font-style: normal;
 }
 
-body {
-  background-color: #010d04;
-}
+ body {
+    background-color: #010d04;
+  }
+  
+  i {
+    color: #535754;
+  }
+  
+  /* different colors */
+  span.green {color: #5da369;}
+  span.teal {color: #5da398;}
+  span.blue {color: #5d80a3;}
+  span.purple{color:#715da3;}
 
-i {
-  color: #535754;
-}
+  .textBackground {
+    margin: 2vw;
+    height: 40vw
+  }
+  
+  .mainTitle {
+    color: #e0e0e0;
+    font-size: 2vw;
+    font-family: 'Daydream';
+    margin: auto;
+    width: 60%;
+  }
+  
+  .sideBar {
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-top: 2vw;
+    width: 35vw;
+  }
+  .text {
+    margin: 3vw;
+    color: #e0e0e0;
+    font-size: 2vw;
+    font-family: 'nintendoFont';
+  }
+  
+  .biography {
+    color: #e0e0e0;
+    font-size: 1.5vw;
+    font-family: 'nintendoFont';
+    margin: 0vw 60vw 0vw 3vw;
+    position: absolute;
+    padding: 0px;
+  }
 
-.textBackground {
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  margin: 2vw;
-  height: 40vw
-}
+  .textEditorBackground {
+    /* background color */
+    border-width: 10px;
+    border-color: black;
+    background: black;
+    border-radius: 25px;
+    /* size & position */
+    width: 55vw;
+    margin: 0vw 3vw 0vw 40vw;
+  }
 
-.mainTitle {
-  color: #e0e0e0;
-  font-size: 2vw;
-  font-family: 'Daydream';
-  margin: auto;
-  width: 60%;
-}
+  .textEditor{
+    color: #e0e0e0;
+    font-size: 1.15vw;
+    font-family: 'nintendoFont';
+    padding: 1vw;
+    line-height:1.5vw;
+    text-indent: 2vw;
+  }
 
-.text {
-  margin: 3vw;
-  color: #e0e0e0;
-  font-size: 2vw;
-  font-family: 'nintendoFont';
-}
-
-.biography {
-  color: #e0e0e0;
-  font-size: 1.5vw;
-  font-family: 'nintendoFont';
-  margin: 2vw 4vw 3vw 36vw;
-  position: absolute;
-  padding: 0px;
-}
-
-.checklist {
-  background-color: #001a07;
-  padding: 0px;
-}
-
-input[type=checkbox] {
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(1.5); /* IE */
-  -moz-transform: scale(1.5); /* FF */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-  -o-transform: scale(1.5); /* Opera */
-  transform: scale(1.5);
-  padding: 10px;
-}
+  .consoleLog{
+    color: #e0e0e0;
+    font-size: 1.15vw;
+    font-family: 'nintendoFont';
+    padding: 1vw;
+    margin-top: -2vw;
+    margin-left: 1vw;
+    line-height:1.5vw;
+  }
+  
+  @counter-style empty-style {
+    system: extends decimal;
+    suffix: ' ';
+  }
+  
+  ol {
+    list-style: empty-style;
+  }
