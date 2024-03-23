@@ -19,91 +19,129 @@
   font-style: normal;
 }
 
- body {
-    background-color: #010d04;
-  }
+body {
+  background-color: #010d04;
+}
   
-  i {
-    color: #535754;
-  }
+i {
+  color: #535754;
+}
   
-  /* different colors */
-  span.green {color: #5da369;}
-  span.teal {color: #5da398;}
-  span.blue {color: #5d80a3;}
-  span.purple{color:#715da3;}
+/* different colors */
+span.green {color: #5da369;}
+span.teal {color: #5da398;}
+span.blue {color: #5d80a3;}
+span.purple{color:#715da3;}
 
-  .textBackground {
-    margin: 2vw;
-    height: 40vw
-  }
+.textBackground {
+  margin: 2vw;
+  height: 40vw
+}
   
-  .mainTitle {
-    color: #e0e0e0;
-    font-size: 2vw;
-    font-family: 'Daydream';
-    margin: auto;
-    width: 60%;
-  }
+.mainTitle {
+  color: #e0e0e0;
+  font-size: 2vw;
+  font-family: 'Daydream';
+  text-align: center;
+}
   
-  .sideBar {
-    border-style: solid;
-    border-color: white;
-    border-width: 2px;
-    margin-top: 2vw;
-    width: 35vw;
-  }
-  .text {
-    margin: 3vw;
-    color: #e0e0e0;
-    font-size: 2vw;
-    font-family: 'nintendoFont';
-  }
+.text {
+  margin: 3vw;
+  color: #e0e0e0;
+  font-size: 2vw;
+  font-family: 'nintendoFont';
+}
   
-  .biography {
-    color: #e0e0e0;
-    font-size: 1.5vw;
-    font-family: 'nintendoFont';
-    margin: 0vw 60vw 0vw 3vw;
-    position: absolute;
-    padding: 0px;
-  }
+.biography1 {
+  /* rotation in all search engines */
+  animation: rotation1 1.5s infinite linear;
+  /* rotation in all search engines */
 
-  .textEditorBackground {
-    /* background color */
-    border-width: 10px;
-    border-color: black;
-    background: black;
-    border-radius: 25px;
-    /* size & position */
-    width: 55vw;
-    margin: 0vw 3vw 0vw 40vw;
-  }
+  color: #e0e0e0;
+  font-size: 2vw;
+  font-family: 'nintendoFont';
+  margin: -2vw 58vw 0vw 1.5vw;
+  position: absolute;
+}
 
-  .textEditor{
-    color: #e0e0e0;
-    font-size: 1.15vw;
-    font-family: 'nintendoFont';
-    padding: 1vw;
-    line-height:1.5vw;
-    text-indent: 2vw;
-  }
+.biography2 {
+  /* rotation in all search engines */
+  animation: rotation2 1.6s infinite linear;
+  /* rotation in all search engines */
 
-  .consoleLog{
-    color: #e0e0e0;
-    font-size: 1.15vw;
-    font-family: 'nintendoFont';
-    padding: 1vw;
-    margin-top: -2vw;
-    margin-left: 1vw;
-    line-height:1.5vw;
-  }
+  color: #e0e0e0;
+  font-size: 2vw;
+  font-family: 'nintendoFont';
+  margin: 11vw 58vw 0vw 1.5vw;
+  position: absolute;
+}
+
+/* code for text editor information */
+
+.textEditorBackground {
+  /* background color */
+  border-width: 10px;
+  border-color: black;
+  background: black;
+  border-radius: 25px;
+  /* size & position */
+  width: 52vw;
+  margin: 0vw 4vw 0vw 40vw;
+}
+
+.textEditor{
+  color: #e0e0e0;
+  font-size: 1.15vw;
+  font-family: 'nintendoFont';
+  padding: 1vw;
+  line-height:1.5vw;
+  text-indent: 2vw;
+}
+
+.consoleLog{
+  color: #e0e0e0;
+  font-size: 1.15vw;
+  font-family: 'nintendoFont';
+  padding: 1vw;
+  margin-top: -2vw;
+  margin-left: 1vw;
+  line-height:1.5vw;
+}
+
+.consoleLog2{
+  color: #e0e0e0;
+  font-size: 1.15vw;
+  font-family: 'nintendoFont';
+  padding: 1vw;
+  margin-top: 2.5vw;
+  margin-left: 20vw;
+  line-height:1.5vw;
+  position:absolute;
+}
+
+@counter-style empty-style {
+  system: extends decimal;
+  suffix: ' ';
+}
   
-  @counter-style empty-style {
-    system: extends decimal;
-    suffix: ' ';
-  }
-  
-  ol {
-    list-style: empty-style;
-  }
+ol {
+  list-style: empty-style;
+}
+
+@keyframes rotation1 {
+  from {transform: rotate(0deg);}
+  25%{transform: rotate(-0.2deg);}
+  50% {transform: rotate(-0.7deg);}
+  75%{transform: rotate(-0.2deg);}
+  to {transform: rotate(0deg);}
+}
+
+@keyframes rotation2 {
+  from{transform: rotate(0deg);}
+  25%{transform: rotate(0.2deg);}
+  50% {transform: rotate(0.7deg);}
+  75%{transform: rotate(0.2deg);}
+  to{transform: rotate(0deg);}
+}
+
+/* code for text editor information */
