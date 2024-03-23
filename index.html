@@ -15,14 +15,14 @@
   </div>
   <!-- title -->
 
-  <!-- making a planner website for myself -->
+  <!-- WEBSITE OVERHAUL -->
   
   <!-- personal biograpy -->
   <div class="textBackground">
     
     <div class="biography">
       <br>
-      <p>Hello there! My name is Jude (jomer/mojer). I am an active coding-language learner, trying to persue video game development, web development, and/or cyber security. Im also into electronics such as gaming computers, custom mechanical keyboards, and virtual/augmented reality.<i>//just trying to live life the best i can O_o </i> 
+      <p>Hello there! My name is Jude (jomer/mojer). I am an active coding-language learner, trying to persue video game development, web development, and/or cyber security. Im also into electronics such as gaming computers, custom mechanical keyboards, and virtual/augmented reality.<br><i>//just trying to live life the best i can O_o </i> 
         <br>
         <br> Other than these, these are some activities that i like to do in my free time:
         <br><b>-playing video games</b> <i>//(rhythm games [osu!], MMORPGS [FFXIV], JRPGS [Genshin Impact])</i>
@@ -33,18 +33,64 @@
       </p>
     </div>
 
-     <!-- checklist -->
-    <br>
-    <div class="text" class="checklist">
-      <input type="checkbox" id="homework" name="homework">
-      <label for="homework" style="margin-left:1.5vw" style="margin-top:1vw"> ENGLISH ESSAY DUE ON THE 22nd (._. )</label>
-      <br>
-      <input type="checkbox" id="homework" name="homework">
-      <label for="homework" style="margin-left:1.5vw" style="margin-top:1vw"> 2ND PART OF THE AP CALC TEST ON 20th (._. )</label>
-      <br>
+    <!-- oh god what have i done....-->
+    <div class="textEditorBackground">
+        <div class="textEditor">
+        <ol>
+            <!-- c++ starter -->
+            <li style> #<span class = "teal">include</span> <span class ="blue">&lt;iostream&gt;</span></li>
+            <li> <span class = "teal">using namespace <span class = "purple">std</span>;</span></li>
+            <li></li> 
+            <li> <span class = "teal">int </span><span class = "purple">main</span></span>() {</li>
+            <li></li>
+            <!-- variables -->
+            <li> <span class = "teal">string</span> projects [ <span class = "teal">3</span> ]<span class="green"> = {"personal website", "python learning", "cpp learning"}</span></li>
+            <li> <span class = "teal">string</span> hobbies [ <span class = "teal">6</span> ]<span class="green"> = {"video games", "piano", "programming", "text art/drawing/painting", "keyboard building", "volleyball"}</span></li>
+            <li> <span class = "teal">string</span> socials [ <span class = "teal">2</span> ]<span class="green"> = {"instagram: @xjomerx", "discord: jomer"}</span></li>
+            <li> <span class = "teal">string</span> friends [ <span class = "teal">6</span> ]<span class="green"> = {"BlueAce", "smemer", "NoLongerPadoru", "dyson", "Samantha", "hispanicmamba"}</span></li>
+            <li> </li>
+            <!-- functions (not really good at c++, still trying to learn) -->
+            <!-- projects -->
+            <li> cout &lt;&lt; <span class="green">"Current Projects:"</span></li>
+            <li> <span class = "teal">for </span>(<span class = "teal">int</span> project : projects) {</li>
+            <li style="text-indent: 4vw;"> cout &lt;&lt; project </span></li>
+            <li> } </li>
+            <li> </li>
+            <!-- hobbies -->
+            <li> cout &lt;&lt; <span class="green">"Hobbies That I Enjoy:"</span></li>
+            <li> <span class = "teal">for </span>(<span class = "teal">int</span> hobby : hobbies) {</li>
+                <li style="text-indent: 4vw;"> cout &lt;&lt; hobby </li>
+            <li> } </li>
+            <li> </li>
+            <!-- Scoials -->
+            <li> cout &lt;&lt; <span class="green">"My Current Socials:"</span></li>
+            <li> <span class = "teal">for </span>(<span class = "teal">int</span> soscial : socials) {</li>
+                <li style="text-indent: 4vw;"> cout &lt;&lt; social </li>
+            <li> } </li>
+            <li> </li>
+            <!-- fweinds :3 -->
+            <li> cout &lt;&lt; <span class="green">"Friends that I will never forget &lt;3:"</span></li>
+            <li> <span class = "teal">for </span>(<span class = "teal">int</span> friend : friends) {</li>
+                <li style="text-indent: 4vw;"> <span class = "teal">if </span>((friend == <span class ="green">"smemer"</span>) | | (friend == <span class ="green">"dyson"</span>) | | (friend == <span class ="green">"Samantha"</span>)) {</li>
+                    <li style="text-indent: 6vw;"> cout &lt;&lt; <span class="green">"Best board memeber ever \(&gt;-&lt; )/:"</span> &lt;&lt; friend </li>
+                <li style="text-indent: 4vw;"> } <span class = "teal">else</span> {</li>
+                    <li style="text-indent: 6vw;"> cout &lt;&lt; friend</li>
+                <li style="text-indent: 4vw;"> }</li>
+            <li> } </li>
+            <li> <span class = "teal">return </span> <span class = "blue">0</span>;</li>
+        </ol>
+        <hr>
+        </div>
+    <div class="consoleLog">
+        <p style = "font-size: 2vw;"> TERMINAL</p>
+        <p> Current Projects: <br> personal website <br> python learning <br> cpp learning </p>
+        <p> Hobbies that I Enjoy: <br> video game <br> piano <br> programming <br> text art/drawing/painting <br> keyboard building <br> volleyball </p>
+        <p> My Current Socials: <br> instagram: @xjomerx <br> discord: jomer</p>
+        <p> Friends that I will never forget &lt;3: <br> BlueAce <br> Best board memeber ever \(&gt;-&lt; )/: smemer <br> NoLongerPadoru <br> Best board memeber ever \(&gt;-&lt; )/: dyson <br> Best board memeber ever \(&gt;-&lt; )/: Samantha <br> hispanicmamba</p>
     </div>
-    <!-- checklist -->
-    
+    </div>
+    <!-- oh god what have i done....-->
+
   </div>
   <!-- personal biograpy -->
 </body>
