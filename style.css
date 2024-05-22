@@ -128,20 +128,4 @@ ol {
   list-style: empty-style;
 }
 
-@keyframes rotation1 {
-  from {transform: rotate(0deg);}
-  25%{transform: rotate(-0.2deg);}
-  50% {transform: rotate(-0.7deg);}
-  75%{transform: rotate(-0.2deg);}
-  to {transform: rotate(0deg);}
-}
-
-@keyframes rotation2 {
-  from{transform: rotate(0deg);}
-  25%{transform: rotate(0.2deg);}
-  50% {transform: rotate(0.7deg);}
-  75%{transform: rotate(0.2deg);}
-  to{transform: rotate(0deg);}
-}
-
 /* code for text editor information */
