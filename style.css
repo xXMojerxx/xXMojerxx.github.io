@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'pixelFont';
-  src: url("../fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
+  src: url("fonts/VCR_OSD_MONO_1.001.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
+  
 @font-face {
   font-family: 'Daydream';
-  src: url("../fonts/Daydream.ttf") format('truetype');
+  src: url("fonts/Daydream.ttf") format('truetype');
   font-weight: Extra Light;
   font-style: normal;
 }
-
+  
 @font-face {
   font-family: 'nintendoFont';
-  src: url("../fonts/Nintendo-DS-BIOS.ttf") format('truetype');
+  src: url("fonts/Nintendo-DS-BIOS.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
+  
 body {
   background-color: #010d04;
 }
@@ -32,6 +32,7 @@ span.green {color: #5da369;}
 span.teal {color: #5da398;}
 span.blue {color: #5d80a3;}
 span.purple{color:#715da3;}
+span.red {color:#ab5050;}
 
 .textBackground {
   margin: 2vw;
@@ -53,10 +54,6 @@ span.purple{color:#715da3;}
 }
   
 .biography1 {
-  /* rotation in all search engines */
-  animation: rotation1 1.5s infinite linear;
-  /* rotation in all search engines */
-
   color: #e0e0e0;
   font-size: 2vw;
   font-family: 'nintendoFont';
@@ -65,10 +62,6 @@ span.purple{color:#715da3;}
 }
 
 .biography2 {
-  /* rotation in all search engines */
-  animation: rotation2 1.6s infinite linear;
-  /* rotation in all search engines */
-
   color: #e0e0e0;
   font-size: 2vw;
   font-family: 'nintendoFont';
@@ -127,5 +120,6 @@ span.purple{color:#715da3;}
 ol {
   list-style: empty-style;
 }
+
 
 /* code for text editor information */
